@@ -10,7 +10,7 @@ import axios from 'axios'
 
 export function CreateAdModal() {
 
-    const [weekDays, setWeekDays] = useState<String[]>([])
+    const [weekDays, setWeekDays] = useState<string[]>([])
     const [games, setGames] = useState<GameProps[]>([])
     const [useVoiceChannel, setUseVoiceChannel] = useState(false)
 
